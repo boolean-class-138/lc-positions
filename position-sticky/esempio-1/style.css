@@ -1,0 +1,23 @@
+/*----------------
+    RESET
+-----------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------
+    HEADER
+-----------------*/
+header {
+    height: 70px;
+    background-color: steelblue;  
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    
+    position: sticky;
+    top: 0;
+}
+  

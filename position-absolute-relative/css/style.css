@@ -1,0 +1,38 @@
+/*---------------
+    RESET
+----------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.big-square {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border:2px solid red;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+.square-blue {
+    background-color: lightblue;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    /* z-index: 2; */
+}
+.square-pink {
+    background-color: pink;
+    position: relative;
+    z-index: 100
+}
+.square-green {
+    background-color: lightgreen;
+}
